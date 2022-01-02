@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>:: Welcome to Nuraqidah Razali Website ::</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1><a href="#">Nuraqidah Razali Website</a></h1>
+      <h2>My Personal Online Resume</h2>
+    </div>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Search:</legend>
+        <input type="text" value="Search Our Website&hellip;" onFocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;">
+        <input type="submit" id="sf_submit" value="submit">
+      </fieldset>
+    </form>
+    <nav>
+      <ul>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="personal.html">Personal</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="experiences.html">Experiences</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="achievement.html">Achievement</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="family.html">Family</a></li>
+        <li><a href="references.html">References</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+</div>
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <!-- Slider -->
+    <section id="slider" class="clear">
+       <figure><img src="images/family.jpg" width="630" height="300">
+        <figcaption>
+          <h2>My Family</h2>
+          <p>I cannot imagine living my life without my family by my side. Family is very important and valuable to me and is something that should never be taken for granted. Without my family, a large part of my life and culture would be missing.</p>
+          <footer class="more"><a href="#">Read More &raquo;</a></footer>
+        </figcaption>
+      </figure>
+    </section>
+    <!-- main content -->
+    <div id="intro">
+      <section class="clear">
+        <!-- article 1 -->
+        <article class="two_quarter">
+          <h2>My Siblings</h2>
+          <p>I have 3 siblings which is two brothers and one sister. My older brother “Muhammad Rafiuddin 26 years old, meanwhile me the only one sister “Nuraqidah 25 years old”and last my little brother “Muhammad Afiq 19 years old”, we all grew up and spent the most of our lives with each other</p>
+          <p>I think I have always known that I was a little different from my brothers, but it is okay because we are all different in many ways. Now my story on how it is like living with 3 siblings with personalities are all different and how we all like certain things, but we all manage to live together in harmony, my older brother is more into sports and my little brother is more into video games; and finally, me is more into listening to music and reading.</p>
+
+        </article>
+        <!-- article 2 -->
+        <article class="two_quarter lastbox">
+          <style>
+* {
+margin: 0;
+padding: 0;
+font-family:sans-serif,Arial;
+font-size:10pt;
+}
+.tree {
+white-space: nowrap;
+min-width: 800px;
+min-height:500px;
+}
+.tree ul {
+padding-top: 20px;
+position: relative;
+transition: all 0.5s;
+-webkit-transition: all 0.5s;
+-moz-transition: all 0.5s;
+}
+.tree li {
+float: left;
+text-align: center;
+list-style-type: none;
+position: relative;
+padding: 20px 5px 0 5px;
+transition: all 0.5s;
+-webkit-transition: all 0.5s;
+-moz-transition: all 0.5s;
+}
+
+
+.tree li::after {
+right: auto;
+left: 50%;
+border-left: 1px solid #ccc;
+}
+
+.tree li:only-child::after, .tree li:only-child::before {
+display: none;
+}
+
+.tree li:only-child {
+padding-top: 0;
+}
+
+.tree li:first-child::before, .tree li:last-child::after {
+border: 0 none;
+}
+
+.tree li:last-child::before {
+border-right: 1px solid #ccc;
+border-radius: 0 5px 0 0;
+-webkit-border-radius: 0 5px 0 0;
+-moz-border-radius: 0 5px 0 0;
+}
+.tree li:first-child::after {
+border-radius: 5px 0 0 0;
+-webkit-border-radius: 5px 0 0 0;
+-moz-border-radius: 5px 0 0 0;
+}
+
+.tree ul ul::before {
+content: '';
+position: absolute;
+top: 0;
+left: 50%;
+border-left: 1px solid #ccc;
+width: 0;
+height: 20px;
+}
+.tree li div {
+border: 1px solid #ccc;
+padding: 5px 10px;
+text-decoration: none;
+color: #666;
+font-family: arial, verdana, tahoma;
+font-size: 11px;
+display: inline-block;
+min-width: 80px;
+min-height: 30px;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+transition: all 0.5s;
+-webkit-transition: all 0.5s;
+-moz-transition: all 0.5s;
+}
+.tree li div .male {
+background-color:lightblue;
+display: inline-block;
+width:100px;
+padding:10px;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+}
+.tree li div .female {
+background-color:lightpink;
+display: inline-block;
+width:103px;
+padding:10px;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+}
+.tree li div .spacer {
+background-color:lightblue;
+display: inline-block;
+width:10px;
+}
+
+.tree li div:hover, .tree li div:hover + ul li div {
+background: #c8e4f8;
+color: #003366;
+border: 1px solid #94a0b4;
+}
+
+.tree li div:hover + ul li::after,
+.tree li div:hover + ul li::before,
+.tree li div:hover + ul::before,
+.tree li div:hover + ul ul::before {
+border-color: #94a0b4;
+}
+</style>
+ 
+</head>
+<body>
+ 
+<form id="form1">
+ 
+<div class="tree" id="FamilyTreeDiv">
+ 
+<ul>
+ 
+ 
+ 
+<li>
+
+<div class="images-with-text">
+    <img src="images/parents.jpg" height="100" width="100" alt="sometext"/> 
+    <p><div><span class="male">Razali</span><span class="spacer"></span><span class="female">Rohaya</span></div></p>
+ 
+ 
+<ul>
+ 
+<li>
+ 
+<div class="images-with-text">
+    <img src="images/brother.jpg" height="100" width="100" alt="sometext"/>
+    <p><div><span class="male">Rafiuddin</span></div></p>
+
+   
+</div>
+
+<div class="images-with-text">
+    <img src="images/sister.jpg" height="100" width="100" alt="sometext"/>
+    <p><div><span class="female">Nuraqidah</span></div></p>
+      
+</div>
+
+<div class="images-with-text">
+    <img src="images/adik.jpg" height="100" width="100" alt="sometext"/>
+    <p><div><span class="male">Afiq</span></div></p>
+      
+</div>
+</li>
+ 
+ 
+ 
+
+ 
+</ul>
+ 
+</li>
+ 
+ 
+
+ 
+</ul>
+</li>
+ 
+</ul>
+ 
+</div>
+ 
+</form>
+ 
+</body>
+</html>
+            
+        </article>
+      </section>
+    </div>
+    <!-- ########################################################################################## -->
+    <!-- ########################################################################################## -->
+    <!-- ########################################################################################## -->
+    <!-- ########################################################################################## -->
+    <div id="homepage" class="last clear">
+      <section class="one_quarter">
+        <h2 class="title">From The Blog</h2>
+        <article>
+            <time datetime="2021-01-20">Wednesday, 20<sup>th</sup> January 2021</time>
+          </header>
+          <p>Copyright by Nuraqidah Razali © 2021</p>
+        </article>
+      </section>
+      <section class="one_quarter">
+        <h2 class="title">Quick Links</h2>
+        <nav>
+          <ul>
+            <li><a href="http://www.facebook.com/nuraqidahrazali" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/nuraqidahrazali" target="_blank">Instagram</a></li>
+            <li><a href="https://twitter.com/nuraqidah_" target="_blank">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/nuraqidah-binti-mohd-razali-b54086183" target="_blank">Linkedin</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section class="two_quarter lastbox">
+        <h2 class="title">Family Quotes</h2>
+        <img class="imgl" src="images/fam.gif" width="130" height="130" alt="">
+        <p>¨You don’t choose your family. They are God’s gift to you, as you are to them.¨ — Desmond Tutu</p>
+        <footer class="more"><a href="#">Read More &raquo;</a></footer>
+      </section>
+    </div>
+    <!-- / content body -->
+  </div>
+</div>
+<!-- Footer -->
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+     <p class="fl_left">Copyright &copy; 2021 - All Rights Reserved - <a href="#">Nuraqidah Razali</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+  </footer>
+</div>
+</body>
+</html>
